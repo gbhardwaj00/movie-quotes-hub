@@ -1,0 +1,44 @@
+.home {
+    padding: 1rem;
+}
+  
+.quote-list {
+    list-style: none;
+    padding: 0;
+}
+
+.quote-list li {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+    font-style: italic;
+    margin: 0;
+    color: #555;
+}
+
+.quote-details {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+@media (max-width: 768px) {
+    .quote-list li {
+        margin: 0.5rem 0;
+        padding: 0.75rem;
+    }
+
+    blockquote {
+        font-size: 1rem;
+    }
+
+    .quote-details {
+        font-size: 0.8rem;
+    }
+}
+  
